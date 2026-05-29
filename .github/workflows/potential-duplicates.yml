@@ -4,6 +4,9 @@
 
 name: Potential Duplicates
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
+
 on:
   issues:
     types: [opened, edited]
