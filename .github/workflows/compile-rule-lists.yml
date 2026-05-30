@@ -1,4 +1,4 @@
-name: Regenerate Blocklist
+name: Recompile blocklist and allowlist from sources
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
@@ -13,7 +13,7 @@ permissions:
   contents: write # Needed to push commits back to the repo
 
 jobs:
-  regenerate:
+  recompile:
     runs-on: ubuntu-24.04
 
     steps:
