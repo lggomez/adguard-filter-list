@@ -6,6 +6,7 @@ ______________________________________________________________________
 
 - [AdGuardHome DNS Filter List](#adguardhome-dns-filter-list)
   - [What Is This?](#what-is-this)
+  - [Why this Fork?](#why-this-fork)
   - [How Can I Use It?](#how-can-i-use-it)
   - [Which Lists Are Combined Here?](#which-lists-are-combined-here)
   - [Do You Curate the Lists?](#do-you-curate-the-lists)
@@ -26,6 +27,17 @@ This is a DNS blocklist that can be used for AdGuardHome. (Does not work with Pi
 This list combines more than 80 other lists, including the default lists from
 AdGuardHome, into one single list, so you don't have to add countless lists to your
 AdGuardHome, but just this one.
+
+## Why this Fork?<a name="why-this-fork"></a>
+
+Peter Pfeufer did an awesome work on the original project, and I'm honoring his [Last Words](#last-words) section to implement some changes:
+
+* **Automated Generation**: Added a daily GitHub Action workflow (`compile-rule-lists.yml`) to automatically compile and update lists, ensuring they are always up-to-date with upstream sources.
+* **Separated Allowlist**: Added post-processing rules to funnel all blocklist exceptions into a separate `allowlist` file, which is versioned and published alongside the `blocklist` instead of being discarded.
+* **Refactored Local Compilation**: Optimized the local `compile-hostlist` script for local compilation and validation, making the GitHub Action the single automated source of truth.
+
+> [!IMPORTANT]
+This fork is not affiliated with the original project in any way. It is maintained independently and may have different features or policies. Use it at your own risk.
 
 ## How Can I Use It?<a name="how-can-i-use-it"></a>
 
