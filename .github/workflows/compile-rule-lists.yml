@@ -53,5 +53,6 @@ jobs:
             currentDate=$(date '+%Y-%m-%d')
             currentTime=$(date '+%H:%M:%S')
             git commit -m "Auto-regenerated blocklist and allowlist ${currentDate} ${currentTime}"
+            git pull --rebase -X ours origin master
             git push
           fi
