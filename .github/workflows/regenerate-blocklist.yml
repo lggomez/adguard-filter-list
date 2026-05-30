@@ -35,6 +35,8 @@ jobs:
 
       - name: Post-process Blocklist
         run: |
+          # Capture whitelisted entries to allowlist
+          grep '^@@' blocklist > allowlist || true
           # Remove all whitelisted entries
           sed -i '/^@@/d' blocklist
           # Remove empty lines
@@ -44,10 +46,12 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add blocklist
+          git add blocklist allowlist
           if git diff --cached --quiet; then
-            echo "No changes in blocklist."
+            echo "No changes in blocklist and allowlist."
           else
-            git commit -m "Auto-regenerated blocklist [skip ci]"
+            currentDate=$(date '+%Y-%m-%d')
+            currentTime=$(date '+%H:%M:%S')
+            git commit -m "Auto-regenerated blocklist and allowlist ${currentDate} ${currentTime}"
             git push
           fi
