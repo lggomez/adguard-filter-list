@@ -148,7 +148,7 @@ my list of blocklists isn't massive. (That was a lot of lists in one sentence ..
 
 ## How Often Is This List Updated?<a name="how-often-is-this-list-updated"></a>
 
-Once a day
+Once a day through a github action, thus making the repo itself a reliable and consistent source of truth (for my own purposes at least)
 
 ## Whitelist Exceptions You Might Want to Make<a name="whitelist-exceptions-you-might-want-to-make"></a>
 
