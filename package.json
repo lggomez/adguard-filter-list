@@ -1,0 +1,12 @@
+{
+  "name": "adguard-filter-list",
+  "version": "1.0.0",
+  "description": "DNS block list that can be used for AdGuardHome",
+  "private": true,
+  "scripts": {
+    "compile": "hostlist-compiler -v -c hostlist-compiler-config.json -o blocklist"
+  },
+  "devDependencies": {
+    "@adguard/hostlist-compiler": "^1.1.2"
+  }
+}
