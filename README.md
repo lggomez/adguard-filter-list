@@ -14,9 +14,6 @@ ______________________________________________________________________
   - [Which Lists Are Combined Here?](#which-lists-are-combined-here)
   - [Do You Curate the Lists?](#do-you-curate-the-lists)
   - [How Often Is This List Updated?](#how-often-is-this-list-updated)
-  - [Whitelist Exceptions You Might Want to Make](#whitelist-exceptions-you-might-want-to-make)
-    - [Google Fonts](#google-fonts)
-    - [Eve Online](#eve-online)
   - [Last Words](#last-words)
 
 <!-- mdformat-toc end -->
