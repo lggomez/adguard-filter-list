@@ -1,5 +1,8 @@
 # AdGuardHome DNS Filter List<a name="adguardhome-dns-filter-list"></a>
 
+<!-- rules-stats-start -->
+<!-- rules-stats-end -->
+
 ______________________________________________________________________
 
 <!-- mdformat-toc start --slug=github --maxlevel=6 --minlevel=1 -->
@@ -42,7 +45,7 @@ This fork is not affiliated with the original project in any way. It is maintain
 ## How Can I Use It?<a name="how-can-i-use-it"></a>
 
 Pretty simple, copy this link
-(https://raw.githubusercontent.com/ppfeufer/adguard-filter-list/refs/heads/master/blocklist) and
+(https://raw.githubusercontent.com/lggomez/adguard-filter-list/refs/heads/master/blocklist) and
 add it to your AdGuardHome DNS blocklists.
 
 ## Which Lists Are Combined Here?<a name="which-lists-are-combined-here"></a>

@@ -1,7 +1,7 @@
 {
-  "name": "ppfeufer/adguard-filter-list",
+  "name": "lggomez/adguard-filter-list",
   "description": "DNS block list that can be used for AdGuardHome. (Does not work with Pi-hole)",
-  "homepage": "https://github.com/ppfeufer/adguard-filter-list",
+  "homepage": "https://github.com/lggomez/adguard-filter-list",
   "license": "GPLv3",
   "sources": [
     {
@@ -842,8 +842,7 @@
         "Compress",
         "Validate"
       ]
-    }
-    ,
+    },
     {
       "name": "FR: French filters RedFlagDomains",
       "source": "https://dl.red.flag.domains/red.flag.domains.txt",

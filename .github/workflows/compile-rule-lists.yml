@@ -41,18 +41,20 @@ jobs:
           sed -i '/^@@/d' blocklist
           # Remove empty lines
           sed -i '/^$/d' blocklist
+          # Update README and generate step summary statistics
+          node update-readme.js
 
       - name: Commit and Push Changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add blocklist allowlist
+          git add blocklist allowlist README.md
           if git diff --cached --quiet; then
-            echo "No changes in blocklist and allowlist."
+            echo "No changes in blocklist, allowlist, and README."
           else
             currentDate=$(date '+%Y-%m-%d')
             currentTime=$(date '+%H:%M:%S')
-            git commit -m "Auto-regenerated blocklist and allowlist ${currentDate} ${currentTime}"
+            git commit -m "Auto-regenerated blocklist, allowlist, and stats ${currentDate} ${currentTime}"
             git pull --rebase -X ours origin master
             git push
           fi
