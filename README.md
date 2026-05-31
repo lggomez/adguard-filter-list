@@ -48,6 +48,8 @@ Pretty simple, copy this link
 (https://raw.githubusercontent.com/lggomez/adguard-filter-list/refs/heads/master/blocklist) and
 add it to your AdGuardHome DNS blocklists.
 
+Also, the corresponding allowlist is available at (https://raw.githubusercontent.com/lggomez/adguard-filter-list/refs/heads/master/allowlist).
+
 ## Which Lists Are Combined Here?<a name="which-lists-are-combined-here"></a>
 
 Which lists I'm using here, you can see in hostlist compiler configuration
@@ -152,27 +154,6 @@ my list of blocklists isn't massive. (That was a lot of lists in one sentence ..
 ## How Often Is This List Updated?<a name="how-often-is-this-list-updated"></a>
 
 Once a day through a github action, thus making the repo itself a reliable and consistent source of truth (for my own purposes at least)
-
-## Whitelist Exceptions You Might Want to Make<a name="whitelist-exceptions-you-might-want-to-make"></a>
-
-### Google Fonts<a name="google-fonts"></a>
-
-As stated [here](https://github.com/lightswitch05/hosts#google-fonts) from one of
-the lists I am using, you might have to whitelist `fonts.gstatic.com`. To do so, add
-the following to your whitelist:
-
-```plainext
-@@||fonts.gstatic.com^$important
-```
-
-### Eve Online<a name="eve-online"></a>
-
-If you are playing Eve Online by any chance, you also might want to add the
-following line to your custom filter rules:
-
-```plaintext
-@@||extccp.com^$important
-```
 
 ## Last Words<a name="last-words"></a>
 
