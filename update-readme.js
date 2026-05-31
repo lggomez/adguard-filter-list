@@ -41,7 +41,7 @@ _This combined list was last compiled on **${dateStr} (UTC)** and contains **${f
 if (fs.existsSync(readmePath)) {
     let readme = fs.readFileSync(readmePath, 'utf-8');
     const regex = /<!-- rules-stats-start -->[\s\S]*?<!-- rules-stats-end -->/g;
-    
+
     if (regex.test(readme)) {
         readme = readme.replace(regex, statsSection);
         fs.writeFileSync(readmePath, readme, 'utf-8');
