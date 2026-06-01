@@ -24,10 +24,6 @@ jobs:
         uses: actions/setup-node@v6
         with:
           node-version: 24
-          cache: 'npm' # Enables npm dependency caching
-
-      - name: Install Dependencies
-        run: npm ci
 
       - name: Check Upstream Source Changes
         id: check_sources
@@ -41,7 +37,7 @@ jobs:
       - name: Compile Blocklist
         if: steps.check_sources.outputs.changed == 'true'
         run: |
-          npm run compile
+          npx @adguard/hostlist-compiler -v -c hostlist-compiler-config.json -o blocklist
 
       - name: Post-process Blocklist
         if: steps.check_sources.outputs.changed == 'true'
@@ -53,33 +49,30 @@ jobs:
           # Remove empty lines
           sed -i '/^$/d' blocklist
 
-      - name: Verify and Update Lockfile
+      - name: Verify Rule Changes
         if: steps.check_sources.outputs.changed == 'true'
+        id: check_rules
         run: |
-          # Always update the lockfile so that we don't recompile on subsequent runs
-          node check-sources.js --update
-
-          # Check if the blocklist or allowlist rules have actual changes
           if git diff --quiet blocklist allowlist; then
-            echo "No actual rule changes detected in the compiled output. Skipping README timestamp update."
+            echo "No actual rule changes detected in the compiled output."
+            echo "rules_changed=false" >> $GITHUB_OUTPUT
           else
-            echo "Actual rule changes detected. Updating README statistics..."
+            echo "Actual rule changes detected."
+            echo "rules_changed=true" >> $GITHUB_OUTPUT
+            # Update the README statistics
             node update-readme.js
+            # Save the new upstream headers/hashes to the lockfile
+            node check-sources.js --update
           fi
 
       - name: Commit and Push Changes
-        if: steps.check_sources.outputs.changed == 'true'
+        if: steps.check_sources.outputs.changed == 'true' && steps.check_rules.outputs.rules_changed == 'true'
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add blocklist allowlist README.md sources-lock.json
-          
-          if git diff --cached --quiet; then
-            echo "No changes to commit."
-          else
-            currentDate=$(date '+%Y-%m-%d')
-            currentTime=$(date '+%H:%M:%S')
-            git commit -m "Auto-regenerated blocklist, allowlist, and stats ${currentDate} ${currentTime}"
-            git pull --rebase -X ours origin master
-            git push
-          fi
+          currentDate=$(date '+%Y-%m-%d')
+          currentTime=$(date '+%H:%M:%S')
+          git commit -m "Auto-regenerated blocklist, allowlist, and stats ${currentDate} ${currentTime}"
+          git pull --rebase -X ours origin master
+          git push
