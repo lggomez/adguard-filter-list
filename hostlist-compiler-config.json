@@ -204,7 +204,7 @@
       ]
     },
     {
-      "name": "uBlock filters – Badware risks",
+      "name": "uBlock filters \u2013 Badware risks",
       "source": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt",
       "type": "adblock",
       "transformations": [
@@ -214,7 +214,7 @@
       ]
     },
     {
-      "name": "uBlock filters – Privacy",
+      "name": "uBlock filters \u2013 Privacy",
       "source": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt",
       "type": "adblock",
       "transformations": [
@@ -224,7 +224,7 @@
       ]
     },
     {
-      "name": "uBlock filters – Resource abuse",
+      "name": "uBlock filters \u2013 Resource abuse",
       "source": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt",
       "type": "adblock",
       "transformations": [
@@ -234,7 +234,7 @@
       ]
     },
     {
-      "name": "uBlock filters – Unbreak",
+      "name": "uBlock filters \u2013 Unbreak",
       "source": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt",
       "type": "adblock",
       "transformations": [
@@ -861,4 +861,4 @@
     "InsertFinalNewLine",
     "RemoveEmptyLines"
   ]
-}
+}

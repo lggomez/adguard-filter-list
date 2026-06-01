@@ -8,14 +8,14 @@ const lockPath = path.join(__dirname, 'sources-lock.json');
 async function processInPool(urls, concurrency, fn) {
     const results = {};
     const queue = [...urls];
-    
+
     async function worker() {
         while (queue.length > 0) {
             const url = queue.shift();
             results[url] = await fn(url);
         }
     }
-    
+
     const workers = Array.from({ length: concurrency }, () => worker());
     await Promise.all(workers);
     return results;
@@ -25,11 +25,11 @@ async function processInPool(urls, concurrency, fn) {
 async function fetchMetadata(url) {
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), 15000); // 15 seconds timeout
-    
+
     const headers = {
         'User-Agent': 'Mozilla/5.0 (GitHub Action; adguard-filter-list)'
     };
-    
+
     try {
         console.log(`Checking: ${url}`);
         let res = await fetch(url, {
@@ -37,7 +37,7 @@ async function fetchMetadata(url) {
             headers: headers,
             signal: controller.signal
         });
-        
+
         // If HEAD is blocked or returns a failure status, try GET with Range: bytes=0-0
         if (!res.ok || res.status === 405 || res.status === 403) {
             res = await fetch(url, {
@@ -49,13 +49,13 @@ async function fetchMetadata(url) {
                 signal: controller.signal
             });
         }
-        
+
         clearTimeout(timeoutId);
-        
+
         const etag = res.headers.get('etag') || '';
         const lastModified = res.headers.get('last-modified') || '';
         const contentLength = res.headers.get('content-length') || '';
-        
+
         return {
             etag: etag.trim(),
             lastModified: lastModified.trim(),
@@ -82,10 +82,10 @@ async function main() {
         console.error(`Error: Configuration file not found at ${configPath}`);
         process.exit(1);
     }
-    
+
     const config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
     const urls = [];
-    
+
     // Extract all remote source URLs
     if (config.sources && Array.isArray(config.sources)) {
         for (const src of config.sources) {
@@ -99,15 +99,15 @@ async function main() {
             }
         }
     }
-    
+
     // Deduplicate URLs
     const uniqueUrls = [...new Set(urls)];
     console.log(`Found ${uniqueUrls.length} unique remote source list(s) to verify.`);
-    
+
     // Fetch all metadata in parallel with limited concurrency to avoid 429 rate limiting
     const concurrency = 8;
     const newMetadata = await processInPool(uniqueUrls, concurrency, fetchMetadata);
-    
+
     // Load existing lock file
     let oldMetadata = {};
     if (fs.existsSync(lockPath)) {
@@ -117,15 +117,15 @@ async function main() {
             console.warn(`[Warning] Could not parse existing lock file: ${err.message}`);
         }
     }
-    
+
     // Compare new metadata with locked metadata
     let changed = false;
     const changesList = [];
-    
+
     for (const url of uniqueUrls) {
         const oldVal = oldMetadata[url];
         const newVal = newMetadata[url];
-        
+
         if (!oldVal) {
             changed = true;
             changesList.push(`[New source] ${url}`);
@@ -142,7 +142,7 @@ async function main() {
             if (oldVal.contentLength !== newVal.contentLength) console.log(`  Content-Length: ${oldVal.contentLength} -> ${newVal.contentLength}`);
         }
     }
-    
+
     console.log('\n--- Summary of Verification ---');
     if (changed) {
         console.log(`Changes detected in ${changesList.length} source(s):`);
@@ -150,16 +150,16 @@ async function main() {
     } else {
         console.log('No changes detected. All sources are up-to-date.');
     }
-    
+
     // Handle command line flags
     const args = process.argv.slice(2);
     const shouldUpdate = args.includes('--update') || args.includes('-u');
-    
+
     if (shouldUpdate) {
         fs.writeFileSync(lockPath, JSON.stringify(newMetadata, null, 2), 'utf8');
         console.log(`Successfully updated lock file at ${lockPath}`);
     }
-    
+
     // Output GITHUB_OUTPUT parameters if running in GitHub Actions
     const githubOutput = process.env.GITHUB_OUTPUT;
     if (githubOutput) {
