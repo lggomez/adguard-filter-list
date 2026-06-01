@@ -40,10 +40,10 @@ _This combined list was last compiled on **${dateStr} (UTC)** and contains **${f
 
 if (fs.existsSync(readmePath)) {
     let readme = fs.readFileSync(readmePath, 'utf-8');
-    const regex = /<!-- rules-stats-start -->[\s\S]*?<!-- rules-stats-end -->/g;
+    const hasPlaceholders = readme.includes('<!-- rules-stats-start -->') && readme.includes('<!-- rules-stats-end -->');
 
-    if (regex.test(readme)) {
-        readme = readme.replace(regex, statsSection);
+    if (hasPlaceholders) {
+        readme = readme.replace(/<!-- rules-stats-start -->[\s\S]*?<!-- rules-stats-end -->/, statsSection);
         fs.writeFileSync(readmePath, readme, 'utf-8');
         console.log(`Successfully updated README.md: ${blocklistCount} blocking rules, ${allowlistCount} allowed rules.`);
     } else {
