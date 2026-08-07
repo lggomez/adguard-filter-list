@@ -1,10 +1,10 @@
 # AdGuardHome DNS Filter List<a name="adguardhome-dns-filter-list"></a>
 
 <!-- rules-stats-start -->
-![Rules Count](https://img.shields.io/badge/Rules-2%2C891%2C162-blue)
+![Rules Count](https://img.shields.io/badge/Rules-3%2C157%2C471-blue)
 ![Allowlist Count](https://img.shields.io/badge/Allowlist-355-green)
 
-_This combined list was last compiled on **Aug 6, 2026 (UTC)** and contains **2,891,162** active blocking rules and **355** whitelist exceptions._
+_This combined list was last compiled on **Aug 7, 2026 (UTC)** and contains **3,157,471** active blocking rules and **355** whitelist exceptions._
 <!-- rules-stats-end -->
 
 ______________________________________________________________________
