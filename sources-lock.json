@@ -1,20 +1,26 @@
 {
+  "https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/adguard.txt": {
+    "etag": "W/\"5e81b09f7adf19bc5575996271b5bf7bebc00b3f7b4d5f477d956486c69a83ca\"",
+    "lastModified": "",
+    "contentLength": "7248",
+    "status": 200
+  },
   "https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt": {
     "etag": "W/\"bd68ed0d3643c045c3d8ef8c50ef5bf461bc67ad941d13eef70d97dd888e3720\"",
     "lastModified": "",
     "contentLength": "2001",
     "status": 200
   },
-  "https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/adguard.txt": {
-    "etag": "W/\"7dbea6470d9a69e2950700816f18454fe316b45ffe955405e4e30de30c44651d\"",
-    "lastModified": "",
-    "contentLength": "7256",
+  "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt": {
+    "etag": "W/\"6a77c8be-3c295e\"",
+    "lastModified": "Sun, 09 Aug 2026 00:24:30 GMT",
+    "contentLength": "1369252",
     "status": 200
   },
-  "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt": {
-    "etag": "W/\"6a7676f6-3c0e1f\"",
-    "lastModified": "Sat, 08 Aug 2026 00:23:18 GMT",
-    "contentLength": "1366696",
+  "https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt": {
+    "etag": "W/\"e8fd9e8cb24dbe1150f625db4f0faf330253df88a6f645ace1ce4b070554619f\"",
+    "lastModified": "",
+    "contentLength": "66439",
     "status": 200
   },
   "https://raw.githubusercontent.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites/master/hosts": {
@@ -23,10 +29,10 @@
     "contentLength": "111782",
     "status": 200
   },
-  "https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt": {
-    "etag": "W/\"5af4724136a5f2a6d3d57b8c2f4f2f075073737f1dde06f3da2832d97b8aa7eb\"",
+  "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt": {
+    "etag": "W/\"e284dd27e23b26d4e7036cc90dee2aae55b1846b78abe5ab415b10823bd73dee\"",
     "lastModified": "",
-    "contentLength": "66415",
+    "contentLength": "118089",
     "status": 200
   },
   "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/specific_app.txt": {
@@ -35,10 +41,10 @@
     "contentLength": "19253",
     "status": 200
   },
-  "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt": {
-    "etag": "W/\"e284dd27e23b26d4e7036cc90dee2aae55b1846b78abe5ab415b10823bd73dee\"",
+  "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/NorwegianExperimentalList%20alternate%20versions/NordicFiltersAdGuardHome.txt": {
+    "etag": "W/\"2fb74fc5283054594315951d36fbf70125679642279f79de08362572197aa39f\"",
     "lastModified": "",
-    "contentLength": "118089",
+    "contentLength": "6639",
     "status": 200
   },
   "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/hostfile.txt": {
@@ -47,16 +53,10 @@
     "contentLength": "6892",
     "status": 200
   },
-  "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/NorwegianExperimentalList%20alternate%20versions/NordicFiltersAdGuardHome.txt": {
-    "etag": "W/\"2fb74fc5283054594315951d36fbf70125679642279f79de08362572197aa39f\"",
+  "https://raw.githubusercontent.com/yous/YousList/master/hosts.txt": {
+    "etag": "W/\"2c3b91c964b246a7a21f9b5fec85fb813ddcd4f77b13894ec1bcc640ba3c9fe7\"",
     "lastModified": "",
-    "contentLength": "6639",
-    "status": 200
-  },
-  "https://raw.githubusercontent.com/lassekongo83/Frellwits-filter-lists/master/Frellwits-Swedish-Hosts-File.txt": {
-    "etag": "W/\"03f031d40120dc061ae6820c4b21810331d1e880da8ba7020fc4f175dd564595\"",
-    "lastModified": "",
-    "contentLength": "9428",
+    "contentLength": "4799",
     "status": 200
   },
   "https://anti-ad.net/easylist.txt": {
@@ -65,22 +65,10 @@
     "contentLength": "764653",
     "status": 200
   },
-  "https://raw.githubusercontent.com/yous/YousList/master/hosts.txt": {
-    "etag": "W/\"2c3b91c964b246a7a21f9b5fec85fb813ddcd4f77b13894ec1bcc640ba3c9fe7\"",
-    "lastModified": "",
-    "contentLength": "4799",
-    "status": 200
-  },
-  "https://raw.githubusercontent.com/cchevy/macedonian-pi-hole-blocklist/master/hosts.txt": {
-    "etag": "W/\"412471077e2e2e62c4ee6062fc329d84e3d157112a985e86475af98b63173dc6\"",
-    "lastModified": "",
-    "contentLength": "1457",
-    "status": 200
-  },
   "https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-agh.txt": {
-    "etag": "\"5b24d1049ea33311a3f8b8ae0f37c58f1cafe462592c1458cd69217ae4d0ca2d-br\"",
-    "lastModified": "Sat, 08 Aug 2026 00:32:04 GMT",
-    "contentLength": "118183",
+    "etag": "\"12f7fcd1ca8519bbc0f429d294474442010c1cf724e6a8d3ba527ee51fa22e7d-br\"",
+    "lastModified": "Sun, 09 Aug 2026 00:31:53 GMT",
+    "contentLength": "115896",
     "status": 200
   },
   "https://paulgb.github.io/BarbBlock/blacklists/hosts-file.txt": {
@@ -89,16 +77,34 @@
     "contentLength": "4486",
     "status": 200
   },
-  "https://raw.githubusercontent.com/DRSDavidSoft/additional-hosts/master/domains/blacklist/unwanted-iranian.txt": {
-    "etag": "W/\"f5d722f02eb594abe6e6bb0f9006e3e5e0acd7cec93596a01a4848fbc6b080bc\"",
+  "https://raw.githubusercontent.com/lassekongo83/Frellwits-filter-lists/master/Frellwits-Swedish-Hosts-File.txt": {
+    "etag": "W/\"03f031d40120dc061ae6820c4b21810331d1e880da8ba7020fc4f175dd564595\"",
     "lastModified": "",
-    "contentLength": "2891",
+    "contentLength": "9428",
     "status": 200
   },
   "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt": {
     "etag": "W/\"0665c614a8dbe9e33afaf89e00ef4266f1861f10e2d25d4ceac83fe7f3577365\"",
     "lastModified": "",
     "contentLength": "117501",
+    "status": 200
+  },
+  "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt": {
+    "etag": "W/\"131343464ab560fb89fa748d1f50e9d959875090ea10075af6f2856f6ed510ae\"",
+    "lastModified": "",
+    "contentLength": "88141",
+    "status": 200
+  },
+  "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt": {
+    "etag": "W/\"13bc065e92f248789b41132866d71b5df068feec0e95267886efeba261e18bfc\"",
+    "lastModified": "",
+    "contentLength": "47128",
+    "status": 200
+  },
+  "https://adaway.org/hosts.txt": {
+    "etag": "W/\"6951518d-3b6fe\"",
+    "lastModified": "Sun, 28 Dec 2025 15:49:33 GMT",
+    "contentLength": "47886",
     "status": 200
   },
   "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt": {
@@ -113,46 +119,16 @@
     "contentLength": "3007",
     "status": 200
   },
-  "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt": {
-    "etag": "W/\"f6d4b1ae4d50053f77a1b0d69441cd1743ab70b242bc3b2a271581f0330f6ab8\"",
+  "https://raw.githubusercontent.com/DRSDavidSoft/additional-hosts/master/domains/blacklist/unwanted-iranian.txt": {
+    "etag": "W/\"f5d722f02eb594abe6e6bb0f9006e3e5e0acd7cec93596a01a4848fbc6b080bc\"",
     "lastModified": "",
-    "contentLength": "47089",
+    "contentLength": "2891",
     "status": 200
   },
-  "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt": {
-    "etag": "W/\"131343464ab560fb89fa748d1f50e9d959875090ea10075af6f2856f6ed510ae\"",
+  "https://raw.githubusercontent.com/cchevy/macedonian-pi-hole-blocklist/master/hosts.txt": {
+    "etag": "W/\"412471077e2e2e62c4ee6062fc329d84e3d157112a985e86475af98b63173dc6\"",
     "lastModified": "",
-    "contentLength": "88141",
-    "status": 200
-  },
-  "https://adaway.org/hosts.txt": {
-    "etag": "W/\"6951518d-3b6fe\"",
-    "lastModified": "Sun, 28 Dec 2025 15:49:33 GMT",
-    "contentLength": "47886",
-    "status": 200
-  },
-  "https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt": {
-    "etag": "W/\"6556bc73-dbd83d\"",
-    "lastModified": "Fri, 17 Nov 2023 01:05:55 GMT",
-    "contentLength": "2340078",
-    "status": 200
-  },
-  "https://www.github.developerdan.com/hosts/lists/amp-hosts-extended.txt": {
-    "etag": "W/\"6556bc73-c0068\"",
-    "lastModified": "Fri, 17 Nov 2023 01:05:55 GMT",
-    "contentLength": "137308",
-    "status": 200
-  },
-  "https://www.github.developerdan.com/hosts/lists/facebook-extended.txt": {
-    "etag": "W/\"6556bc73-133711\"",
-    "lastModified": "Fri, 17 Nov 2023 01:05:55 GMT",
-    "contentLength": "147591",
-    "status": 200
-  },
-  "https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt": {
-    "etag": "W/\"05cb514fcf559bd54da9a9474f67b5adbffb38420b356b8a908257ea417d6a28\"",
-    "lastModified": "",
-    "contentLength": "446451",
+    "contentLength": "1457",
     "status": 200
   },
   "https://www.github.developerdan.com/hosts/lists/dating-services-extended.txt": {
@@ -161,10 +137,16 @@
     "contentLength": "106166",
     "status": 200
   },
-  "https://www.github.developerdan.com/hosts/lists/tracking-aggressive-extended.txt": {
-    "etag": "W/\"6556bc73-5eaf7b\"",
+  "https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt": {
+    "etag": "W/\"6556bc73-dbd83d\"",
     "lastModified": "Fri, 17 Nov 2023 01:05:55 GMT",
-    "contentLength": "984729",
+    "contentLength": "2340078",
+    "status": 200
+  },
+  "https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt": {
+    "etag": "W/\"4c95d285c3cce99a5d2881a7f5a5be763f1414461c4c18f8e8f8a2d4810bd4e3\"",
+    "lastModified": "",
+    "contentLength": "441734",
     "status": 200
   },
   "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts": {
@@ -173,10 +155,10 @@
     "contentLength": "485",
     "status": 200
   },
-  "https://winhelp2002.mvps.org/hosts.txt": {
-    "etag": "\"80d74a47d12d71:0\"",
-    "lastModified": "Sat, 06 Mar 2021 11:41:27 GMT",
-    "contentLength": "78281",
+  "https://v.firebog.net/hosts/neohostsbasic.txt": {
+    "etag": "\"ad11-5fa5ea2d08e40-gzip\"",
+    "lastModified": "Fri, 28 Apr 2023 05:20:49 GMT",
+    "contentLength": "14085",
     "status": 200
   },
   "https://v.firebog.net/hosts/static/w3kbl.txt": {
@@ -197,15 +179,27 @@
     "contentLength": "10702",
     "status": 200
   },
-  "https://v.firebog.net/hosts/neohostsbasic.txt": {
-    "etag": "\"ad11-5fa5ea2d08e40-gzip\"",
-    "lastModified": "Fri, 28 Apr 2023 05:20:49 GMT",
-    "contentLength": "14085",
-    "status": 200
-  },
   "https://v.firebog.net/hosts/Easylist.txt": {
     "etag": "\"fb265-658756c379456-gzip\"",
     "lastModified": "Fri, 07 Aug 2026 14:00:10 GMT",
+    "contentLength": "",
+    "status": 200
+  },
+  "https://www.github.developerdan.com/hosts/lists/facebook-extended.txt": {
+    "etag": "W/\"6556bc73-133711\"",
+    "lastModified": "Fri, 17 Nov 2023 01:05:55 GMT",
+    "contentLength": "147591",
+    "status": 200
+  },
+  "https://www.github.developerdan.com/hosts/lists/amp-hosts-extended.txt": {
+    "etag": "W/\"6556bc73-c0068\"",
+    "lastModified": "Fri, 17 Nov 2023 01:05:55 GMT",
+    "contentLength": "137308",
+    "status": 200
+  },
+  "https://v.firebog.net/hosts/Prigent-Malware.txt": {
+    "etag": "\"487a01-658756c1dde21-gzip\"",
+    "lastModified": "Fri, 07 Aug 2026 14:00:08 GMT",
     "contentLength": "",
     "status": 200
   },
@@ -221,28 +215,22 @@
     "contentLength": "250890",
     "status": 200
   },
-  "https://v.firebog.net/hosts/Prigent-Malware.txt": {
-    "etag": "\"487a01-658756c1dde21-gzip\"",
-    "lastModified": "Fri, 07 Aug 2026 14:00:08 GMT",
-    "contentLength": "",
+  "https://winhelp2002.mvps.org/hosts.txt": {
+    "etag": "\"80d74a47d12d71:0\"",
+    "lastModified": "Sat, 06 Mar 2021 11:41:27 GMT",
+    "contentLength": "78281",
+    "status": 200
+  },
+  "https://www.github.developerdan.com/hosts/lists/tracking-aggressive-extended.txt": {
+    "etag": "W/\"6556bc73-5eaf7b\"",
+    "lastModified": "Fri, 17 Nov 2023 01:05:55 GMT",
+    "contentLength": "984729",
     "status": 200
   },
   "https://raw.githubusercontent.com/matomo-org/referrer-spam-blacklist/master/spammers.txt": {
     "etag": "W/\"13dcc9b45571a9fc74abca8c4abb11169fdb2ec555ed60621a44524cc6e887ac\"",
     "lastModified": "",
     "contentLength": "15554",
-    "status": 200
-  },
-  "https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts": {
-    "etag": "W/\"523f6d520bfd7b7ec73becae27df85456f439d1bae72d67cb8d6a88f5a2c5097\"",
-    "lastModified": "",
-    "contentLength": "38433",
-    "status": 200
-  },
-  "https://easylist-downloads.adblockplus.org/easylistdutch.txt": {
-    "etag": "\"efba7f5288d05f71f76ec839a113a020:1786154296.8026\"",
-    "lastModified": "Sat, 08 Aug 2026 01:57:05 GMT",
-    "contentLength": "21043",
     "status": 200
   },
   "https://raw.githubusercontent.com/RooneyMcNibNug/pihole-stuff/master/SNAFU.txt": {
@@ -257,10 +245,40 @@
     "contentLength": "22739",
     "status": 200
   },
+  "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt": {
+    "etag": "W/\"202c398a56bbe754c10a81727bf2e7eff153184f346f3883572a5e291b612a7c\"",
+    "lastModified": "",
+    "contentLength": "3850",
+    "status": 200
+  },
   "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/GameConsoleAdblockList.txt": {
     "etag": "W/\"ff09030bc0ec941fa3b791c86345954e2fbec6a3ef4a4134e30971413027ec25\"",
     "lastModified": "",
     "contentLength": "2839",
+    "status": 200
+  },
+  "https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts": {
+    "etag": "W/\"523f6d520bfd7b7ec73becae27df85456f439d1bae72d67cb8d6a88f5a2c5097\"",
+    "lastModified": "",
+    "contentLength": "38433",
+    "status": 200
+  },
+  "https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt": {
+    "etag": "W/\"8534e4657b97b72d150aa1b2a0de4778b18b17d00fc77b376f2561552ca65e19\"",
+    "lastModified": "",
+    "contentLength": "49284",
+    "status": 200
+  },
+  "https://easylist-downloads.adblockplus.org/easylistdutch.txt": {
+    "etag": "\"bce9dd76a960c78f1398f238b8b1e8b3:1786240705.311054\"",
+    "lastModified": "Sun, 09 Aug 2026 01:56:54 GMT",
+    "contentLength": "21041",
+    "status": 200
+  },
+  "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts": {
+    "etag": "W/\"895a530fdca49a59d3f752dd0c1b31ae0f8490cbe0cc6581196f46fb4b63ad14\"",
+    "lastModified": "",
+    "contentLength": "13996",
     "status": 200
   },
   "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt": {
@@ -275,52 +293,16 @@
     "contentLength": "45167",
     "status": 200
   },
-  "https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt": {
-    "etag": "\"42e2e23e3ceb810f0062db0426118147\"",
-    "lastModified": "Thu, 04 Jun 2026 19:00:01 GMT",
-    "contentLength": "43604",
-    "status": 200
-  },
-  "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt": {
-    "etag": "W/\"202c398a56bbe754c10a81727bf2e7eff153184f346f3883572a5e291b612a7c\"",
-    "lastModified": "",
-    "contentLength": "3850",
-    "status": 200
-  },
-  "https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt": {
-    "etag": "W/\"8534e4657b97b72d150aa1b2a0de4778b18b17d00fc77b376f2561552ca65e19\"",
-    "lastModified": "",
-    "contentLength": "49284",
-    "status": 200
-  },
-  "https://big.oisd.nl/": {
-    "etag": "\"6a76730b-318e2a\"",
-    "lastModified": "Sat, 08 Aug 2026 00:06:35 GMT",
-    "contentLength": "3247658",
-    "status": 200
-  },
-  "https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts": {
-    "etag": "W/\"f99bea6b08c3cce6283b34b52e39a66cd6d77023a0e73ebfcabd8e0eff486e85\"",
-    "lastModified": "",
-    "contentLength": "112979",
-    "status": 200
-  },
-  "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts": {
-    "etag": "W/\"895a530fdca49a59d3f752dd0c1b31ae0f8490cbe0cc6581196f46fb4b63ad14\"",
-    "lastModified": "",
-    "contentLength": "13996",
-    "status": 200
-  },
-  "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts": {
-    "etag": "W/\"c51eefed00da0c6c53ae387676b29729168d52445e1e2112a09f2fbb045815bd\"",
-    "lastModified": "",
-    "contentLength": "152",
-    "status": 200
-  },
   "https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts": {
     "etag": "W/\"5be631458fa565a605e5e4c586c44e04deeda89a0911352360954b93099ec31f\"",
     "lastModified": "",
     "contentLength": "10807",
+    "status": 200
+  },
+  "https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt": {
+    "etag": "\"42e2e23e3ceb810f0062db0426118147\"",
+    "lastModified": "Thu, 04 Jun 2026 19:00:01 GMT",
+    "contentLength": "43604",
     "status": 200
   },
   "https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt": {
@@ -329,22 +311,46 @@
     "contentLength": "4699",
     "status": 200
   },
+  "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts": {
+    "etag": "W/\"c51eefed00da0c6c53ae387676b29729168d52445e1e2112a09f2fbb045815bd\"",
+    "lastModified": "",
+    "contentLength": "152",
+    "status": 200
+  },
+  "https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts": {
+    "etag": "W/\"f99bea6b08c3cce6283b34b52e39a66cd6d77023a0e73ebfcabd8e0eff486e85\"",
+    "lastModified": "",
+    "contentLength": "112979",
+    "status": 200
+  },
   "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts": {
     "etag": "W/\"0bce33971ad5d553e824feae4db9416893aa6296ebd03537c37c448b47453a25\"",
     "lastModified": "",
     "contentLength": "733543",
     "status": 200
   },
-  "https://urlhaus.abuse.ch/downloads/hostfile/": {
-    "etag": "\"2c55-6587f7acbe898-gzip\"",
-    "lastModified": "Sat, 08 Aug 2026 02:00:04 GMT",
-    "contentLength": "3776",
+  "https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_trackers.txt": {
+    "etag": "W/\"3bed7a84ee62f32d6e500bf6408599799c630458e0b2388bb83916639d41045a\"",
+    "lastModified": "",
+    "contentLength": "1378567",
+    "status": 200
+  },
+  "https://big.oisd.nl/": {
+    "etag": "\"6a77e047-1db3c8\"",
+    "lastModified": "Sun, 09 Aug 2026 02:04:55 GMT",
+    "contentLength": "1946568",
+    "status": 200
+  },
+  "https://secure.fanboy.co.nz/fanboy-cookiemonster.txt": {
+    "etag": "\"6a772025-489a6\"",
+    "lastModified": "Sat, 08 Aug 2026 12:25:09 GMT",
+    "contentLength": "297382",
     "status": 200
   },
   "https://easylist.to/easylist/easyprivacy.txt": {
-    "etag": "W/\"6a768ed9-16c78b\"",
-    "lastModified": "Sat, 08 Aug 2026 02:05:13 GMT",
-    "contentLength": "443471",
+    "etag": "W/\"6a77dd18-16c7cb\"",
+    "lastModified": "Sun, 09 Aug 2026 01:51:20 GMT",
+    "contentLength": "443500",
     "status": 200
   },
   "https://bitbucket.org/ethanr/dns-blacklists/raw/8575c9f96e5b4a1308f2f12394abd86d0927a4a0/bad_lists/Mandiant_APT1_Report_Appendix_D.txt": {
@@ -353,16 +359,22 @@
     "contentLength": "43844",
     "status": 200
   },
+  "https://raw.githubusercontent.com/matomo-org/referrer-spam-list/master/spammers.txt": {
+    "etag": "W/\"13dcc9b45571a9fc74abca8c4abb11169fdb2ec555ed60621a44524cc6e887ac\"",
+    "lastModified": "",
+    "contentLength": "15554",
+    "status": 200
+  },
   "https://raw.githubusercontent.com/nextdns/cname-cloaking-blocklist/master/domains": {
     "etag": "W/\"db53069f2891665ecdb0c1738ac83c6f44aceeca7133866b1a0a361561ef1950\"",
     "lastModified": "",
     "contentLength": "1042",
     "status": 200
   },
-  "https://raw.githubusercontent.com/matomo-org/referrer-spam-list/master/spammers.txt": {
-    "etag": "W/\"13dcc9b45571a9fc74abca8c4abb11169fdb2ec555ed60621a44524cc6e887ac\"",
-    "lastModified": "",
-    "contentLength": "15554",
+  "https://urlhaus.abuse.ch/downloads/hostfile/": {
+    "etag": "\"2d98-6589398a3292c-gzip\"",
+    "lastModified": "Sun, 09 Aug 2026 02:00:04 GMT",
+    "contentLength": "3835",
     "status": 200
   },
   "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/alexa": {
@@ -371,22 +383,16 @@
     "contentLength": "68",
     "status": 200
   },
-  "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/apple": {
-    "etag": "W/\"0c2d62e7b044217fcafd8d45285cd99b5b7aea75e2aa430efba9a8996f634ad9\"",
-    "lastModified": "",
-    "contentLength": "171",
-    "status": 200
-  },
   "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/huawei": {
     "etag": "W/\"d6649b5508b978387f12376ca389ca5d6a9e52a392648726c64e8e2f9440fc2e\"",
     "lastModified": "",
     "contentLength": "220",
     "status": 200
   },
-  "https://secure.fanboy.co.nz/fanboy-cookiemonster.txt": {
-    "etag": "\"6a767f9a-489a1\"",
-    "lastModified": "Sat, 08 Aug 2026 01:00:10 GMT",
-    "contentLength": "297377",
+  "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/apple": {
+    "etag": "W/\"0c2d62e7b044217fcafd8d45285cd99b5b7aea75e2aa430efba9a8996f634ad9\"",
+    "lastModified": "",
+    "contentLength": "171",
     "status": 200
   },
   "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/roku": {
@@ -395,16 +401,46 @@
     "contentLength": "34",
     "status": 200
   },
+  "https://abpvn.com/android/abpvn.txt": {
+    "etag": "W/\"6a759084-89943\"",
+    "lastModified": "Fri, 07 Aug 2026 08:00:04 GMT",
+    "contentLength": "",
+    "status": 200
+  },
   "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/samsung": {
     "etag": "W/\"da9af4fb3e424680c43cc8fac14b9f639336482291faab64bb870fa7e616ed2c\"",
     "lastModified": "",
     "contentLength": "77",
     "status": 200
   },
+  "https://v.firebog.net/hosts/Easyprivacy.txt": {
+    "etag": "\"e4da4-658756d5c3096-gzip\"",
+    "lastModified": "Fri, 07 Aug 2026 14:00:29 GMT",
+    "contentLength": "",
+    "status": 200
+  },
+  "https://v.firebog.net/hosts/Prigent-Ads.txt": {
+    "etag": "W/\"113ac-658756d799ff1-gzip\"",
+    "lastModified": "Fri, 07 Aug 2026 14:00:31 GMT",
+    "contentLength": "26019",
+    "status": 200
+  },
+  "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=1&mimetype=plaintext": {
+    "etag": "",
+    "lastModified": "Sat, 08 Aug 2026 10:03:19 GMT",
+    "contentLength": "",
+    "status": 200
+  },
   "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/sonos": {
     "etag": "W/\"28806086a34b53b64109e090217e004e4a186ddebf484fc963ee133fa9079abc\"",
     "lastModified": "",
     "contentLength": "53",
+    "status": 200
+  },
+  "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/multi.txt": {
+    "etag": "W/\"8ccff46eaa0ecf54d923973868179379383b779d84afd99baed8db4d193638bd\"",
+    "lastModified": "",
+    "contentLength": "1324684",
     "status": 200
   },
   "https://raw.githubusercontent.com/nextdns/native-tracking-domains/main/domains/windows": {
@@ -419,34 +455,40 @@
     "contentLength": "99",
     "status": 200
   },
-  "https://v.firebog.net/hosts/Easyprivacy.txt": {
-    "etag": "\"e4da4-658756d5c3096-gzip\"",
-    "lastModified": "Fri, 07 Aug 2026 14:00:29 GMT",
-    "contentLength": "",
-    "status": 200
-  },
   "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.2o7Net/hosts": {
     "etag": "W/\"7f9a640dcbdb1fcc1e1f6d482b6b15fdf9a4872aeb34c5e8720b23bdec07bd08\"",
     "lastModified": "",
     "contentLength": "13753",
     "status": 200
   },
-  "https://v.firebog.net/hosts/Prigent-Ads.txt": {
-    "etag": "W/\"113ac-658756d799ff1-gzip\"",
-    "lastModified": "Fri, 07 Aug 2026 14:00:31 GMT",
-    "contentLength": "26019",
+  "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-vpn-proxy-bypass.txt": {
+    "etag": "W/\"aa621102161c78cca4086dd0c3adade472324708d25e0313fadba35aceaeb684\"",
+    "lastModified": "",
+    "contentLength": "118354",
     "status": 200
   },
-  "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/multi.txt": {
-    "etag": "W/\"f28e9cfad410b0aa0c7456535ad9fcaa6d1a6d0bd161e464bf98b2085b736d5b\"",
+  "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.txt": {
+    "etag": "W/\"91227de418cfad8d46b614aad035ba590c2e01ff028ef321b6dd86cfc3fd2544\"",
     "lastModified": "",
-    "contentLength": "1327541",
+    "contentLength": "12907076",
     "status": 200
   },
-  "https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_trackers.txt": {
-    "etag": "W/\"3bed7a84ee62f32d6e500bf6408599799c630458e0b2388bb83916639d41045a\"",
+  "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/fake.txt": {
+    "etag": "W/\"2daadc9ec0e8a4416b7a00d7e5ca4d06272a539a5c6777e4c292a2f21348ef53\"",
     "lastModified": "",
-    "contentLength": "1378567",
+    "contentLength": "108863",
+    "status": 200
+  },
+  "https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt": {
+    "etag": "\"9327e8d612a12c32412a886ba7492821:1786240703.24572\"",
+    "lastModified": "Sun, 09 Aug 2026 01:56:54 GMT",
+    "contentLength": "116740",
+    "status": 200
+  },
+  "https://malware-filter.gitlab.io/malware-filter/phishing-filter-agh.txt": {
+    "etag": "\"12f7fcd1ca8519bbc0f429d294474442010c1cf724e6a8d3ba527ee51fa22e7d-br\"",
+    "lastModified": "Sun, 09 Aug 2026 00:31:53 GMT",
+    "contentLength": "333531",
     "status": 200
   },
   "https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt": {
@@ -455,58 +497,16 @@
     "contentLength": "44155",
     "status": 200
   },
-  "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-vpn-proxy-bypass.txt": {
-    "etag": "W/\"358b55b1fa85397b6c633458180b8d2db6bf5a8b8aff6ab0e0918b77dcf5844f\"",
-    "lastModified": "",
-    "contentLength": "120094",
-    "status": 200
-  },
-  "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/fake.txt": {
-    "etag": "W/\"87f9112af09adc0253ee7514dca8247390bb2abb02ac2ef9cb5a04f2444a283f\"",
-    "lastModified": "",
-    "contentLength": "108761",
-    "status": 200
-  },
-  "https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt": {
-    "etag": "\"b14c204dd7dc842a9cb6dd2c64041e05:1786154295.060429\"",
-    "lastModified": "Sat, 08 Aug 2026 01:57:04 GMT",
-    "contentLength": "116736",
-    "status": 200
-  },
   "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt": {
-    "etag": "\"d8c0de861968a65803a46a83702834f8:1786154295.611937\"",
-    "lastModified": "Sat, 08 Aug 2026 01:57:04 GMT",
-    "contentLength": "24495",
-    "status": 200
-  },
-  "https://malware-filter.gitlab.io/malware-filter/phishing-filter-agh.txt": {
-    "etag": "\"5b24d1049ea33311a3f8b8ae0f37c58f1cafe462592c1458cd69217ae4d0ca2d-br\"",
-    "lastModified": "Sat, 08 Aug 2026 00:32:07 GMT",
-    "contentLength": "331805",
-    "status": 200
-  },
-  "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.txt": {
-    "etag": "W/\"9d5c3d79d64324d93d9032828fee057cf84b57d155b217ca49185ba4200db003\"",
-    "lastModified": "",
-    "contentLength": "12826797",
-    "status": 200
-  },
-  "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=1&mimetype=plaintext": {
-    "etag": "",
-    "lastModified": "Fri, 07 Aug 2026 20:36:42 GMT",
-    "contentLength": "",
+    "etag": "\"9c8f24dde6fcaed2cf9313c84dacc700:1786240703.921631\"",
+    "lastModified": "Sun, 09 Aug 2026 01:56:54 GMT",
+    "contentLength": "24498",
     "status": 200
   },
   "https://dl.red.flag.domains/red.flag.domains.txt": {
-    "etag": "\"6a762e12-be6e0\"",
-    "lastModified": "Fri, 07 Aug 2026 19:12:18 GMT",
-    "contentLength": "780000",
-    "status": 200
-  },
-  "https://abpvn.com/android/abpvn.txt": {
-    "etag": "W/\"6a759084-89943\"",
-    "lastModified": "Fri, 07 Aug 2026 08:00:04 GMT",
-    "contentLength": "",
+    "etag": "\"6a76ec68-be7bf\"",
+    "lastModified": "Sat, 08 Aug 2026 08:44:24 GMT",
+    "contentLength": "780223",
     "status": 200
   }
 }
